@@ -23,7 +23,7 @@ Here you'll find detailed help on how to run each of Gismeteo weather diary scra
 - In line 10 set True if you want to limit the quantity of scraped pages to 100 and False to run scraper without limits. In line 31 you can change the limit from     100 to any quantity of pages you want
 - Copy file gismeteo_scrapy.py to the folder gismeteo/spiders (if it’s not there at this moment)
 - Open Terminal and run command from the scrapy/gismeteo folder:
-  scrapy crawl gismeteo -O diary_3196.csv:csv
+  scrapy crawl gismeteo
 
 P.S. A few days ago Scrapy update was launched with the bug that shows AttributeError. Read more: https://stackoverflow.com/questions/77002835/im-learning-python-web-scraping-it-shows-attributeerror-when-i-scrapy-crawl-a
 So if you have latest version of Scrapy and your spider doesn't work, first try command: pip install Twisted==22.10.0
