@@ -5,7 +5,7 @@ Here you'll find detailed help on how to run each of Gismeteo weather diary scra
 
 ## Important! If the scraper doesn’t work please turn on VPN (any of CIS countries, better Russia). Sometimes Gismeteo doesn’t work at all or work very slowly if     you are in the EU, USA or any other country.
 
-Beautiful Soup (gismeteo_soup.py)
+# Beautiful Soup (gismeteo_soup.py)
 
 - Install Beautiful Soup using command: pip install beautifulsoup4
 - Set the {cityid} parameter in line 8. For Warsaw it’s 3196
@@ -14,7 +14,7 @@ Beautiful Soup (gismeteo_soup.py)
 - Run spider
 - After parsing is complete the data will appear in the file “diary_{cityid}.csv”
 
-Scrapy (gismeteo_scrapy.py)
+# Scrapy (gismeteo_scrapy.py)
 
 - Install Scrapy using command: pip install scrapy
 - Create a project using command: scrapy startproject gismeteo
@@ -29,7 +29,7 @@ P.S. A few days ago Scrapy update was launched with the bug that shows Attribute
 So if you have latest version of Scrapy and your spider doesn't work, first try command: pip install Twisted==22.10.0
 
 
-Selenium 
+# Selenium 
 
 - Install Selenium using command: pip install selenium
 - Install Chromedriver. The installation for Windows and MacOS is differs so google how to do that for your system
@@ -39,5 +39,5 @@ Selenium
 - Run spider
 - After parsing is complete the data will appear in the file “diary_{cityid}.csv”
 
-P.S. Please be careful using this scrapers and respect the law
+## P.S. Please be careful using this scrapers and respect the law
 
